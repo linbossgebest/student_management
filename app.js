@@ -12,7 +12,7 @@ app.use(bodyParser.json())
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var studentRouter = require('./mongodb/student')
+var studentRouter = require('./routes/student')
 
 
 
